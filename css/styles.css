@@ -1,0 +1,25 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.input-section input, .input-section button {
+  margin-bottom: 10px;
+}
+.radio-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
